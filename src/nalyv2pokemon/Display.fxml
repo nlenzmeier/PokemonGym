@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.DisplayController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" onAction="#handleAbout" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="372.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="177.0" layoutY="-14.0" prefHeight="73.0" prefWidth="283.0" text="CREATE YOUR OWN POKEMON GYM!" />
+            <Button layoutX="350.0" layoutY="318.0" mnemonicParsing="false" onAction="#handleExitButtonAction" prefHeight="35.0" prefWidth="48.0" text="Exit" />
+            <ImageView fitHeight="286.0" fitWidth="446.0" layoutX="77.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@mainScreen.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="typeButton" layoutX="218.0" layoutY="318.0" mnemonicParsing="false" onAction="#handleStartButtonAction" prefHeight="35.0" prefWidth="48.0" text="Start" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

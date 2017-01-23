@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.FlyingController">
+   <children>
+      <ImageView fitHeight="514.0" fitWidth="713.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Flying/bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="207.0" layoutY="24.0" text="CHOOSE YOUR TOP POKEMON!" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="239.0" layoutY="62.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="49.0" layoutY="96.0" onMouseClicked="#handleSwabluButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Flying/swablu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="133.0" layoutX="273.0" layoutY="117.0" onMouseClicked="#handleDucklettButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Flying/Ducklett.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="143.0" layoutX="500.0" layoutY="100.0" onMouseClicked="#handleScytherButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Flying/Scyther.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="142.0" layoutX="280.0" layoutY="254.0" onMouseClicked="#handleMurkrowButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Flying/murkrow%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="39.0" layoutY="250.0" onMouseClicked="#handleZubatButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Flying/Zubat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="145.0" layoutX="511.0" layoutY="254.0" onMouseClicked="#handleNoibatButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Flying/Noibat%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="79.0" layoutX="65.0" layoutY="14.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

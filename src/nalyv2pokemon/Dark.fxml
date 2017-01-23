@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.DarkController">
+   <children>
+      <ImageView fitHeight="483.0" fitWidth="729.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dark/bg.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="181.0" layoutY="20.0" text="CHOOSE YOUR TOP POKEMON!" textFill="#c95f5f" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="59.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="#c95f5f" />
+      <ImageView fitHeight="123.0" fitWidth="123.0" layoutX="81.0" layoutY="128.0" onMouseClicked="#handleSneaselButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dark/sneasel.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="123.0" fitWidth="123.0" layoutX="291.0" layoutY="128.0" onMouseClicked="#handleMurkrowButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dark/murkrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="123.0" layoutX="488.0" layoutY="128.0" onMouseClicked="#handleZoruaButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dark/zorua.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="111.0" layoutX="76.0" layoutY="264.0" onMouseClicked="#handlePurrloinButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dark/Purrloin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="126.0" layoutX="297.0" layoutY="282.0" onMouseClicked="#handlePoochyenaButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dark/poochyena.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="88.0" layoutX="503.0" layoutY="271.0" onMouseClicked="#handleUmbreonButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dark/umbreon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="88.0" layoutX="32.0" layoutY="15.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

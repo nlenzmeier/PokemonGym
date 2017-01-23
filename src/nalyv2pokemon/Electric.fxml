@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.ElectricController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="648.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Electric/tumblr_mm9git2Ty21rj9owuo3_1280.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="128.0" layoutY="24.0" text="CHOOSE YOUR TOP POKEMON!" textFill="#fffb00" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="60.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="#fffb00" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="121.0" onMouseClicked="#handleElekidButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Electric/elekid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="111.0" fitWidth="107.0" layoutX="79.0" layoutY="259.0" onMouseClicked="#handlePachirisuButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Electric/Pachirisu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="170.0" layoutX="47.0" layoutY="167.0" onMouseClicked="#handleDedenneButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Electric/dedenne.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="126.0" layoutX="421.0" layoutY="144.0" onMouseClicked="#handleShinxButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Electric/shinx.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="150.0" layoutX="228.0" layoutY="255.0" onMouseClicked="#handleJolteonButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Electric/jolteon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="111.0" fitWidth="97.0" layoutX="442.0" layoutY="259.0" onMouseClicked="#handlePikachuButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Electric/pikachu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="72.0" layoutX="23.0" layoutY="24.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

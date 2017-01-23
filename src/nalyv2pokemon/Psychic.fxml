@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.PsychicController">
+   <children>
+      <ImageView fitHeight="495.0" fitWidth="643.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Psychic/psychicbg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="138.0" layoutY="22.0" text="CHOOSE YOUR TOP POKEMON!" textFill="WHITE" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="59.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="WHITE" />
+      <ImageView fitHeight="111.0" fitWidth="119.0" layoutX="66.0" layoutY="118.0" onMouseClicked="#handleMeowsticButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Psychic/femaleMeowstic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="171.0" layoutX="232.0" layoutY="253.0" onMouseClicked="#handleEspeonButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Psychic/espeon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="153.0" layoutX="229.0" layoutY="127.0" onMouseClicked="#handleAbraButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Psychic/abra.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="138.0" layoutX="55.0" layoutY="261.0" onMouseClicked="#handleCelebiButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Psychic/Celebi%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="138.0" layoutX="439.0" layoutY="120.0" onMouseClicked="#handleSmoochumButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Psychic/Smoochum%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="99.0" layoutX="498.0" layoutY="270.0" onMouseClicked="#handleWobbuffetButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Psychic/Wobbuffet.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="68.0" layoutX="48.0" layoutY="14.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.IceController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="878.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Ice/Winter-Chirstmas-Snowfalling-Ice-Trees-Lake-Scenes-Wallpapers-Desktop-Background-Free-Image.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="116.0" layoutY="31.0" text="CHOOSE YOUR TOP POKEMON!" textFill="RED" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="68.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="RED" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="101.0" onMouseClicked="#handleSmoochumButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Ice/Smoochum.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="179.0" fitWidth="186.0" layoutX="27.0" layoutY="259.0" onMouseClicked="#handleGlaceonButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Ice/Glaceon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="235.0" layoutY="101.0" onMouseClicked="#handleSneaselButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Ice/sneasel%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="391.0" layoutY="101.0" onMouseClicked="#handleJynxButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Ice/jynx.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="144.0" layoutX="228.0" layoutY="276.0" onMouseClicked="#handleLaprasButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Ice/Lapras%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="168.0" fitWidth="168.0" layoutX="397.0" layoutY="259.0" onMouseClicked="#handleAmauraButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Ice/Amaura.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="79.0" layoutX="27.0" layoutY="21.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

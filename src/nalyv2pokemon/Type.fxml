@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.TypeController">
+    <stylesheets>
+        <URL value="@type.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="425.0" fitWidth="641.0" layoutX="-14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@typebg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="153.0" layoutY="14.0" prefHeight="40.0" prefWidth="321.0" text="CHOOSE YOUR GYM TYPE" textFill="WHITE" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button fx:id="waterButton" layoutX="24.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleWater" text="Water" />
+      <Button layoutX="314.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleGrass" text="Grass" />
+      <Button layoutX="225.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleFire" text="Fire" />
+      <Button layoutX="117.0" layoutY="100.0" mnemonicParsing="false" onAction="#handlePsychic" text="Psychic" />
+      <Button layoutX="520.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleGhost" text="Ghost" />
+      <Button layoutX="414.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleDragon" text="Dragon" />
+      <Button layoutX="523.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleSteel" text="Steel" />
+      <Button layoutX="416.0" layoutY="207.0" mnemonicParsing="false" onAction="#handlePoison" text="Poison" />
+      <Button layoutX="317.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleFairy" text="Fairy" />
+      <Button layoutX="212.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleFighting" text="Fighting" />
+      <Button layoutX="120.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleIce" prefHeight="27.0" prefWidth="60.0" text="Ice" />
+      <Button layoutX="20.0" layoutY="207.0" mnemonicParsing="false" onAction="#handleGround" text="Ground" />
+      <Button layoutX="524.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleRock" text="Rock" />
+      <Button layoutX="415.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleNormal" text="Normal" />
+      <Button layoutX="314.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleFlying" text="Flying" />
+      <Button layoutX="214.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleElectric" text="Electric" />
+      <Button layoutX="127.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleDark" text="Dark" />
+      <Button layoutX="22.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleBug" prefHeight="27.0" prefWidth="60.0" text="Bug" />
+      <ImageView fitHeight="65.0" fitWidth="80.0" layoutX="47.0" layoutY="14.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

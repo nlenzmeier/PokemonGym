@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.FightingController">
+   <children>
+      <ImageView fitHeight="426.0" fitWidth="677.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fighting/bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="128.0" layoutY="14.0" text="CHOOSE YOUR TOP POKEMON!" textFill="WHITE" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="57.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="WHITE" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="95.0" onMouseClicked="#handleMankeyButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fighting/mankey.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="203.0" layoutY="95.0" onMouseClicked="#handleHawluchaButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fighting/hawlucha.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="415.0" layoutY="95.0" onMouseClicked="#handleMakuhitaButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fighting/makuhita.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="254.0" onMouseClicked="#handleMachopButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fighting/machop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="234.0" layoutY="254.0" onMouseClicked="#handlePanchamButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fighting/Pancham.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="401.0" layoutY="254.0" onMouseClicked="#handleRioluButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fighting/riolu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="79.0" layoutX="31.0" layoutY="14.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

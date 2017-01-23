@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.AboutController">
+   <children>
+      <Label layoutX="206.0" layoutY="3.0" text="About The Application" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="41.0" fitWidth="44.0" layoutX="14.0" layoutY="356.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="14.0" layoutY="26.0" prefHeight="325.0" prefWidth="571.0" text="Hello there! My name is Nicolle Lenzmeier and this is my final project! In my application, you have the opportunity to create your own Pokemon gym! It may seem confusing, but with my help it is doable!&#10;&#10;As soon as you pull up the application, the main screen will pop up, giving you the options to start, or exit my program. To start making your own Pokemon gym, click start. &#10;&#10;Once you click start you are given 18 Pokemon type options. This is where you can start creating! If you so choose to go back at any time, you may click the back button at the top left side of your screen. So go ahead, choose your Pokemon type!&#10;&#10;Once you decide on your Pokemon type, you will be taken to a screen that has six Pokemon to choose from. Pick one. BE CAREFUL! You only get one choice, but again, if you decide on something later, you can always click the back button. Now, choose a type.&#10;&#10;The screen you will be taken to is your gym layout. What do you want your gym to look like? You are given six options and as always, you get one option. Click the layout you feel best represents you and your Pokemon.&#10;&#10;Voila! Your gym has been processed! Now all you have to do is click the red “Click here” button to complete your gym. Once you clicked the red button, you can exit the program and go the the NetBeans folder “nalyv2Pokemon” in the “Nalyv2Pokemon” folder. In that folder, you will see a “PokemonGym.html” document. Double click the document and you will be taken to your very own little Pokemon Gym webpage. If you decide you are not satisfied with your gym, instead of closing the program you may double click the back button at the bottom of your screen and it will take you to the very beginning to create a whole new gym.&#10;&#10;I hope this is a fun application and something you have never seen before. Enjoy!" wrapText="true" />
+   </children>
+</AnchorPane>

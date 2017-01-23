@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.SteelController">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Steel/sample_category3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="116.0" layoutY="23.0" text="CHOOSE YOUR TOP POKEMON!" textFill="#077816" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="62.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="#077816" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="138.0" onMouseClicked="#handleShieldonButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Steel/Shieldon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="204.0" layoutY="127.0" onMouseClicked="#handleMagnemiteButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Steel/magnemite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="409.0" layoutY="127.0" onMouseClicked="#handleAronButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Steel/Aron.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="298.0" onMouseClicked="#handleMawileButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Steel/Mawile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="298.0" onMouseClicked="#handleBelbumButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Steel/belbum.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="475.0" layoutY="298.0" onMouseClicked="#handleHonedgeButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Steel/Honedge%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="76.0" layoutX="26.0" layoutY="14.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

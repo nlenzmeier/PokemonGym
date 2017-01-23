@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.DragonController">
+   <children>
+      <ImageView fitHeight="534.0" fitWidth="658.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dragon/dragonBG.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="173.0" layoutY="17.0" text="CHOOSE YOUR TOP POKEMON!" textFill="WHITE" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="54.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="WHITE" />
+      <ImageView fitHeight="125.0" fitWidth="144.0" layoutX="29.0" layoutY="124.0" onMouseClicked="#handleNoibatButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dragon/Noibat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="456.0" layoutY="102.0" onMouseClicked="#handleGoomyButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dragon/goomy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="135.0" fitWidth="135.0" layoutX="233.0" layoutY="114.0" onMouseClicked="#handleBagonButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dragon/Bagon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="135.0" layoutX="456.0" layoutY="249.0" onMouseClicked="#handleGibleButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dragon/Gible.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="237.0" onMouseClicked="#handleAxewButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dragon/axew.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="121.0" layoutX="21.0" layoutY="270.0" onMouseClicked="#handleDratiniButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Dragon/dratini.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="90.0" layoutX="29.0" layoutY="9.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

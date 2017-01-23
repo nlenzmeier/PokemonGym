@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.WebController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="625.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@new.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="115.0" layoutY="21.0" text="CONGRATULATIONS!" underline="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="81.0" text="YOU HAVE CREATED YOUR OWN POKEMON GYM!">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="145.0" onMouseClicked="#handleWebPageButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Click-Here-PNG-Images.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="292.0" prefHeight="19.0" prefWidth="536.0" text="Exit this window and go to nalyv2Pokemon and click on PokemonGym.html">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="320.0" text="If you wish to restart, please click back arrow." />
+      <ImageView fitHeight="64.0" fitWidth="58.0" layoutX="274.0" layoutY="337.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

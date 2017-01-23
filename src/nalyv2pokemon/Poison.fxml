@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.PoisonController">
+   <children>
+      <ImageView fitHeight="486.0" fitWidth="716.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Poison/Magic-Potion-600x337.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="191.0" layoutY="20.0" text="CHOOSE YOUR TOP POKEMON!" textFill="#ec09f8" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="51.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" textFill="#ec09f8" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="73.0" onMouseClicked="#handleEkansButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Poison/Ekans.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="263.0" layoutY="84.0" onMouseClicked="#handleKoffingButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Poison/koffing.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="521.0" layoutY="235.0" onMouseClicked="#handleZubatButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Poison/Zubat%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="41.0" layoutY="230.0" onMouseClicked="#handleGastlyButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Poison/gastly%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="229.0" onMouseClicked="#handleVenonatButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Poison/Venonat%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="527.0" layoutY="88.0" onMouseClicked="#handleGloomButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Poison/gloom%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="103.0" layoutY="5.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

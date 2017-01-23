@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.FairyController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="618.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fairy/36952927-pink-glitter-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="142.0" layoutY="66.0" text="BE CAREFUL! YOUR ONLY GET TO CHOOSE ONCE!" />
+      <Label layoutX="116.0" layoutY="28.0" text="CHOOSE YOUR TOP POKEMON!" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="130.0" fitWidth="129.0" layoutX="227.0" layoutY="108.0" onMouseClicked="#handleCarbinkButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fairy/Carbink.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="95.0" layoutX="62.0" layoutY="94.0" onMouseClicked="#handleSylvionButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fairy/sylvion.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="236.0" onMouseClicked="#handleAzumarillButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fairy/azumarill%20copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="129.0" layoutX="433.0" layoutY="109.0" onMouseClicked="#handleJigglypuffButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fairy/jigglypuff.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="139.0" layoutX="236.0" layoutY="250.0" onMouseClicked="#handleClefairyButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fairy/Clefairy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="113.0" layoutX="441.0" layoutY="250.0" onMouseClicked="#handleTogepiButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon/Fairy/togepi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="80.0" layoutX="26.0" layoutY="14.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

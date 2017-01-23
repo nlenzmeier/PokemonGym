@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nalyv2pokemon.RoomsController">
+   <children>
+      <ImageView fitHeight="580.0" fitWidth="734.0" layoutX="-48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@roombg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="76.0" layoutY="22.0" text="Choose What You Want Your Gym To Look Like:" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="180.0" layoutX="467.0" layoutY="107.0" onMouseClicked="#handlePurpleAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Rooms/purpleDisco.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="173.0" layoutX="49.0" layoutY="98.0" onMouseClicked="#handleRooftopAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Rooms/rooftop.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="191.0" layoutX="33.0" layoutY="259.0" onMouseClicked="#handleRedRoomAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Rooms/redRoom.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="180.0" layoutX="250.0" layoutY="104.0" onMouseClicked="#handleGrandRoomAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Rooms/grandRoom.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="180.0" layoutX="467.0" layoutY="246.0" onMouseClicked="#handleCastleAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Rooms/castle.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="173.0" layoutX="250.0" layoutY="258.0" onMouseClicked="#handleDarkRoomAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Rooms/darkRoom.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="50.0" layoutX="14.0" layoutY="12.0" onMouseClicked="#handleBackButtonAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@darkback.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
